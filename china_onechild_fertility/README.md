@@ -4,7 +4,7 @@
 - Would fertility trends have been similar without the policy? 
 
 ## Background 👥
-Concerns about overpopulation peaked in the late 1960s with Paul Ehrlich’s *The Population Bomb*, sparking widespread worry about resource scarcity and population control. Alongside cultural shifts like contraception access and the rise of the "sexual liberation" movement, some governments adopted more direct approaches to managing fertility.
+Concerns about overpopulation peaked in the late 1960s, when biologist Paul Ehrlich warned in his famous book *The Population Bomb* that rapid population growth would lead to resource scarcity, creating a sense of urgency around population control. As cultural attitudes toward fertility shifted—driven in part by the sexual "liberation" movement and expanded access to contraception—some governments adopted more interventionist approaches to managing reproduction.
 
 One of the most infamous examples is **China’s One-Child Policy**, implemented in 1979 by the National Population and Family Planning Commission. This policy was enforced both implicitly—through propaganda about being a “responsible citizen”—and explicitly, through fines, forced sterilizations, and abortions. Although rare exceptions were made (such as allowing a second child if the first was a girl), the long-term consequences were severe: a heavily skewed gender ratio, psychological strain on women, and labor shortages due to a shrinking youth population.
 
