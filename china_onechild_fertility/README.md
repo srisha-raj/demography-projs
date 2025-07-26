@@ -20,7 +20,13 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 - Policy implementation year: 1979 (China only)
 
 #### Covariates 
-- **World Bank Group**: GDP per capita (USD), Infant Mortality rate, Female educational attainment (upper secondary completion), Contraception prevalence, Urban population proportion
+*All from the World Bank Group unless otherwise noted:*
+
+- GDP per capita (USD)
+- Infant mortality rate (per 1,000 live births)
+- Female educational attainment (upper secondary completion; data begins ~1970)
+- Contraception prevalence (% of married women using any method; data begins ~1961)
+- Urban population (% of total population)
 
 ## Methodology 🧪
 - Cleaned and reformatted time series fertility data for consistency across countries
