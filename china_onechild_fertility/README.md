@@ -22,7 +22,7 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 ## Methodology 🧪
 - Cleaned and reformatted time series fertility data for consistency across countries
 - Visualized fertility trends with line plots across three countries
-- Applied log transformation to linearize exponentially declining fertility patterns for OLS modeling
+- Applied log transformation and Moving Averages smoothing technique to linearize exponentially declining fertility patterns for OLS modeling
 
 - Performed a Difference-in-Differences (DiD) analysis comparing pre- and post-1979 fertility trends in China (treatment) vs. Vietnam and South Korea (controls)
 - Used matrix-form OLS regression with treatment, post-policy, and interaction (DiD) terms
