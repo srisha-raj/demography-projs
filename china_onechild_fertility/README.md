@@ -8,10 +8,9 @@ Concerns about overpopulation peaked in the late 1960s, when biologist Paul Ehrl
 
 One of the most infamous examples is **China’s One-Child Policy**, implemented in 1979 by the National Population and Family Planning Commission. This policy was enforced both implicitly—through propaganda about being a “responsible citizen”—and explicitly, through fines, forced sterilizations, and abortions. Although rare exceptions were made (such as allowing a second child if the first was a girl), the long-term consequences were severe: a heavily skewed gender ratio, psychological strain on women, and labor shortages due to a shrinking youth population.
 
-As China faced severe demographic decline and growing human rights criticism, the policy was relaxed: first to two children in 2016, and then to three in 2021. Meanwhile, fertility rates have declined globally—including in nearby countries like Vietnam and South Korea, which share regional and demographic similarities with China but did not implement similarly strict fertility limits.
+As China faced severe demographic decline and growing human rights criticism, the policy was relaxed: first to two children in 2016, and then to three in 2021. Meanwhile, fertility rates have declined globally—including in nearby countries like Vietnam and South Korea, which share regional and demographic similarities with China but did not implement similarly strict fertility controls.
 
-This project explores whether the One-Child Policy uniquely *caused* a significant decline in China’s fertility rates relative to these neighboring countries. It aims to contribute to a broader conversation about the effectiveness of governmental intervention in family planning, separate from moral or ethical considerations.
-
+This project explores whether the One-Child Policy uniquely *caused* a significant decline in China’s fertility rates beyond what we would have expected based on regional and demographic trends. The primary method used is **Synthetic Control**, which constructs a weighted combination of countries that closely match China’s pre-policy characteristics. This approach helps isolate the policy’s causal effect from broader social and economic shifts. Ultimately, the goal is to inform broader discussions about the effectiveness of state-led family planning interventions, independent of their ethical implications.
 
 ## Data Sources 📊
 
@@ -30,9 +29,9 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 ## Assumptions ⚖️
 - Fertility in China would have followed the **same trajectory** as Vietnam/South Korea in the absence of the policy
 
-- Vietnam and South Korea are **appropriate counterfactuals** (due to comparable economic, regional, and demographic characteristics)
+- Vietnam and South Korea are **appropriate counterfactuals** (due to comparable economic, regional, and demographic characteristics) in Part 1
 
-- Heterogeneous effects (e.g., rural vs. urban, voluntary vs. forced compliance) are not accounted for in this analysis
+- Heterogeneous effects (e.g., rural vs. urban, voluntary vs. forced compliance) are not accounted for in Part 1 of analysis
 
 
 ## Key Findings & Future Work 📌
@@ -48,7 +47,8 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 
 ## Project Structure 🌳
 
-- `Comparative_Fertility_China.ipynb` — Main notebook with data cleaning, visualization, and analysis.
+- `part1_EDA_regression.ipynb` — Part 1 of notebook with data cleaning, visualization, and regression analysis.
+- `part2_synthetic_control.ipynb` - Part 2 of notebook with synthetic control method and regression.
 - `fertility_rates.csv` — Cleaned dataset for the analysis.
 - `OneChildPolicy.pdf` — Summary of the model, findings, and broader policy implications.
 
@@ -57,10 +57,11 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 - Python (`pandas`, `numpy`, `statsmodels`, `matplotlib`, `seaborn`)
 - Jupyter Notebook
 - Difference-in-Differences methodology using OLS regression
+- Synthetic Control Method 
 
 ## How to Run ✅
 
-1. Open the Jupyter notebook `Comparative_Fertility_China.ipynb` in VS Code or Jupyter Lab.
+1. Open the Jupyter notebooks `part1_EDA_regression.ipynb` and `part2_synthetic_control.ipynb` in VS Code or Jupyter Lab.
 2. Load the cleaned `fertility_rates.csv` dataset or retrieve the raw dataset from World Bank Group. 
 3. Run the notebook cells sequentially to reproduce the plots and analysis.
 ---
