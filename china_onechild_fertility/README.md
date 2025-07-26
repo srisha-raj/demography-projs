@@ -14,9 +14,13 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 
 ## Data Sources 📊
 
-- **World Bank Group**: Fertility rate, total (births per woman) from China, Viet Nam, and Korea Rep.
+#### Primary Outcome 
+- **World Bank Group**: Fertility rate, total (births per woman) 
 - Time Span: 1960–2023.
 - Policy implementation year: 1979 (China only)
+
+#### Covariates 
+- **World Bank Group**: GDP per capita (USD), Infant Mortality rate, Female educational attainment (upper secondary completion), Contraception prevalence, Urban population proportion
 
 ## Methodology 🧪
 - Cleaned and reformatted time series fertility data for consistency across countries
