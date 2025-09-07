@@ -13,14 +13,13 @@ As China faced severe demographic decline and growing human rights criticism, th
 This project explores whether the One-Child Policy uniquely *caused* a significant decline in China’s fertility rates beyond what we would have expected based on regional and demographic trends. The primary method used is **Synthetic Control**, which constructs a weighted combination of countries that closely match China’s pre-policy characteristics. This approach helps isolate the policy’s causal effect from broader social and economic shifts. Ultimately, the goal is to inform broader discussions about the effectiveness of state-led family planning interventions, independent of their ethical implications.
 
 ## Data Sources 📊
-
+*Source: World Bank Group*
 #### Primary Outcome 
-- **World Bank Group**: Fertility rate, total (births per woman) 
+- Measuring: Fertility rate, total (births per woman) 
 - Time Span: 1960–2023.
 - Policy implementation year: 1979 (China only)
 
 #### Covariates 
-*All from the World Bank Group unless otherwise noted:*
 
 - GDP per capita (USD)
 - Infant mortality rate (per 1,000 live births)
@@ -41,7 +40,7 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 
 - Vietnam and South Korea are **appropriate counterfactuals** (due to comparable economic, regional, and demographic characteristics) in Part 1
 
-- Heterogeneous effects (e.g., rural vs. urban, voluntary vs. forced compliance) are not accounted for in Part 1 of analysis
+- Heterogeneous effects (e.g., rural vs. urban, voluntary vs. forced compliance) are not taken into account 
 
 
 ## Key Findings & Future Work 📌
