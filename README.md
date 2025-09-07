@@ -31,6 +31,8 @@ Each folder in this repository includes:
 | Project | Description |
 |---------|-------------|
 | **China One-Child Policy on Fertility** | Exploratory Difference-in-Differences analysis of China's 1979 One-Child Policy, using Vietnam, South Korea, and Synthetic Controls as counterfactuals. |
+| **Oakland-Unified School District Student Outcomes** | Multivariate Regression on educational and socioeconomic factors of students to identify correlations with future outcomes|
+| **Evaluating Green CTE Curriculums in CA TK-12 Schools** | Visualizing "Green" Career Pathways offered in CA high schools using geospatial heatmap|
 
 ---
 
