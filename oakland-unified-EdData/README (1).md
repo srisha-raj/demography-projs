@@ -1,25 +1,20 @@
-\## Research Questions 📝
-
-\- How do educational and socioeconomic factors (chronic absenteeism,
+## Research Questions 📝
+- How do educational and socioeconomic factors (chronic absenteeism,
 free-reduced lunch, etc.) affect future outcomes of students?
 
-\## Background 👥
+## Background 👥
 
-\## Data 📊 \*Source: EdData\* \#### Primary Outcome
+## Data 📊 \*Source: EdData\* \#### Primary Outcome
 
-\## Methodology 🧪
+## Methodology 🧪
 
-\## Assumptions ⚖️
+## Assumptions ⚖️
 
-\## Project Structure 🌳
+## Project Structure 🌳
 
-\## Tools Used ⚙️
+## Tools Used ⚙️
 
-\- Python (\`pandas\`, \`numpy\`, \`statsmodels\`, \`matplotlib\`,
-\`seaborn\`) - Jupyter Notebook - Multivariate Regression
+## How to Run ✅
 
-\## How to Run ✅
+## Key Findings & Future Work 📌
 
-\## Key Findings & Future Work 📌
-
-\- Future Directions: \-\--
