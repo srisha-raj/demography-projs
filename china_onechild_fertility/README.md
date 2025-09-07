@@ -12,7 +12,7 @@ As China faced severe demographic decline and growing human rights criticism, th
 
 This project explores whether the One-Child Policy uniquely *caused* a significant decline in China’s fertility rates beyond what we would have expected based on regional and demographic trends. The primary method used is **Synthetic Control**, which constructs a weighted combination of countries that closely match China’s pre-policy characteristics. This approach helps isolate the policy’s causal effect from broader social and economic shifts. Ultimately, the goal is to inform broader discussions about the effectiveness of state-led family planning interventions, independent of their ethical implications.
 
-## Data Sources 📊
+## Data 📊
 *Source: World Bank Group*
 #### Primary Outcome 
 - Measuring: Fertility rate, total (births per woman) 
@@ -42,18 +42,6 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 
 - Heterogeneous effects (e.g., rural vs. urban, voluntary vs. forced compliance) are not taken into account 
 
-
-## Key Findings & Future Work 📌
-
-- Fertility rates declined sharply across all countries after 1979.
-  
-- The estimated causal effect of the One-Child Policy on fertility is a modest additional decline beyond these general trends, and thus not statistically significant (P > 0.05).
-
-- Future Directions:
-1] Capture underlying pattern through better model fits or multivariate DiD approaches
-2] Graph and control for other demographic or socioeconomic trends across countries
-3] Use additional data sources to uncover heterogeneous effects (e.g., rural vs. urban, income levels)
-
 ## Project Structure 🌳
 
 - `part1_EDA_regression.ipynb` — Part 1 of notebook with data cleaning, visualization, and regression analysis.
@@ -73,4 +61,16 @@ This project explores whether the One-Child Policy uniquely *caused* a significa
 1. Open the Jupyter notebooks `part1_EDA_regression.ipynb` and `part2_synthetic_control.ipynb` in VS Code or Jupyter Lab.
 2. Load the cleaned `fertility_rates.csv` dataset or retrieve the raw dataset from World Bank Group. 
 3. Run the notebook cells sequentially to reproduce the plots and analysis.
+
+
+## Key Findings & Future Work 📌
+
+- Fertility rates declined sharply across all countries after 1979.
+  
+- The estimated causal effect of the One-Child Policy on fertility is a modest additional decline beyond these general trends, and thus not statistically significant (P > 0.05).
+
+- Future Directions:
+    1. Capture underlying pattern through better model fits or multivariate DiD approaches
+    2. Graph and control for other demographic or socioeconomic trends across countries
+    3. Use additional data sources to uncover heterogeneous effects (e.g., rural vs. urban, income levels)
 ---
