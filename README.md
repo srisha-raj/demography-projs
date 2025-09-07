@@ -10,9 +10,9 @@ I'm a third-year Statistics student at UC Berkeley, passionate about using socia
 
 My background is in **statistical methods and applied research**, and I’m developing skills in libraries such as `pandas`, `statsmodels`, `matplotlib`, and `seaborn`, with a focus on causal inference methods like **Difference-in-Differences (DiD)**.
 
-This space is exploratory — a place for me to experiment, stay curious, and build toward more structured, publishable work. My goal is to **document my process transparently** and learn through doing!
+This space is a playground for me to learn through doing, and build toward more structured, publishable work.
 
-Eventually, I hope to work at a research institution, such as a university-affiliated lab, a policy think tank, or a data journalism outlet specializing in family policy or demographic research 💙
+I hope to work at a research institution, such as a university-affiliated lab, a policy think tank, or a data journalism outlet specializing in family policy/demographic research 💙
 
 ---
 
@@ -22,7 +22,7 @@ Each folder in this repository includes:
 - A `README.md` specific to that project
 - A cleaned version of the dataset (when permissible)
 - A `.ipynb` Jupyter notebook with my work 
-- A summary `.pdf` report analyzing the data with societal context
+- A `.pdf` report of my takeaways from the project in its societal context
 
 ---
 
@@ -40,7 +40,7 @@ Each folder in this repository includes:
 - **R**: `ggplot2`, `stargazer`, and more to come
 - **STATA/SPSS**
 - **Tableau**
-- **Qualitative/Survey Tools (planned)**: Dedoose, Qualtrics, REDCap
+- **Qualitative/Survey Tools**
 
 ---
 
