@@ -4,7 +4,8 @@ free-reduced lunch, etc.) affect future outcomes of students?
 
 ## Background 👥
 
-## Data 📊 \*Source: EdData\* \#### Primary Outcome
+## Data 📊
+*Source: EdData*
 
 ## Methodology 🧪
 
@@ -13,8 +14,12 @@ free-reduced lunch, etc.) affect future outcomes of students?
 ## Project Structure 🌳
 
 ## Tools Used ⚙️
-
+- Python (`pandas`, `numpy`, `statsmodels`, `matplotlib`, `seaborn`)
+- Jupyter Notebook
+- Multivariate Regression
+ 
 ## How to Run ✅
 
 ## Key Findings & Future Work 📌
 
+---
