@@ -4,7 +4,7 @@ Welcome! This repository contains exploratory data projects related to demograph
 
 ---
 
-## 👩‍💻 About Me
+## 👩🏾‍💻 About Me
 
 I'm a third-year Statistics student at UC Berkeley, passionate about using social research to inform policy design. I have a growing interest in **family, gender, and life-course demography**, which will be the focus of many of the projects here.
 
@@ -30,7 +30,7 @@ Each folder in this repository includes:
 
 | Project | Description |
 |---------|-------------|
-| **China One-Child Policy DiD** | Exploratory Difference-in-Differences analysis of China's 1979 One-Child Policy, using Vietnam and South Korea as counterfactuals. |
+| **China One-Child Policy on Fertility** | Exploratory Difference-in-Differences analysis of China's 1979 One-Child Policy, using Vietnam, South Korea, and Synthetic Controls as counterfactuals. |
 
 ---
 
